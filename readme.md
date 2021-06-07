@@ -35,7 +35,8 @@ $ git clone https://github.com/pybind/pybind11.git
 3. Compile C++ module in utils/lib_cpp by running the following command.
 ```bash
 $ mkdir build && cd build
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ specify the python you use (for example:)
+$ cmake .. -DCMAKE_BUILD_TYPE=Release -DPYBIND11_PYTHON_VERSION=3.6
 $ make
 ```
 4. copy the `lib_cpp.so` to root directory:
