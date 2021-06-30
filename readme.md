@@ -1,6 +1,8 @@
 ## Livox Detection V1.1: trained based on LivoxDataset_v1.0 [\[LivoxDataset\]](https://www.livoxtech.com/cn/dataset)
 The detector can run at least 20 FPS on 2080TI for 200m*100m range detection. The provided model was trained on LivoxDataset_v1.0 within 1w pointcloud sequence.
 
+[![CodeFactor](https://www.codefactor.io/repository/github/s95huang/livox_detection/badge)](https://www.codefactor.io/repository/github/s95huang/livox_detection)
+
 ## News
 `2020.08.31` : livox_detection V1.0 released:100m*50m detction for single Livox lidars, run at least 90FPS on 2080Ti
 
